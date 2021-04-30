@@ -1,5 +1,5 @@
 body{
-background-color: #005b7d;
+background-color: #2c4f87;
   overflow-x: hidden;
 }
 
@@ -10,12 +10,41 @@ h1 {
   z-index: 30;
 }
 
+.rules{
+  height: 100%;
+position: absolute;
+  z-index: 1;
+left:200px;
+}
+
 .fond{
   height: 100%;
-  position: absolute;
+position: absolute;
   z-index: 1;
   width: 100%;
+
 }
+
+.fond-acc{
+  height: 100%;
+  top:60px;
+
+
+  width: 100%;
+}
+
+.bouton{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+
+.fondGO{
+  height: 100%;
+  margin-left: 420px;
+}
+
 
 .rives{
   width: 100%;
@@ -44,7 +73,7 @@ h1 {
 
 }
 .actions{
-  background: #062834;
+  background: #2c4f87);
   flex-grow: 1;
   display: flex;
   max-width: 20%;
