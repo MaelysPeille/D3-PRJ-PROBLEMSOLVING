@@ -10,6 +10,13 @@ h1 {
   z-index: 30;
 }
 
+.rules{
+  height: 100%;
+position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
 .fond{
   height: 100%;
 position: absolute;
