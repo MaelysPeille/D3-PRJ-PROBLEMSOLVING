@@ -1,5 +1,5 @@
 body{
-background-color: #005b7d;
+background-color: rgb(30,40,90);
   overflow-x: hidden;
 }
 
@@ -16,6 +16,12 @@ h1 {
   z-index: 1;
   width: 100%;
 }
+
+.fondGO{
+  height: 100%;
+  
+}
+
 
 .rives{
   width: 100%;
@@ -44,7 +50,7 @@ h1 {
 
 }
 .actions{
-  background: #062834;
+  background: rgb(30,40,90);
   flex-grow: 1;
   display: flex;
   max-width: 20%;
