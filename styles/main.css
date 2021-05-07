@@ -15,10 +15,11 @@ color: rgb(255,255,255);
 position: relative;
 margin-left: auto;
 left: 200px;
-top: 300px;
+top: 200px;
 text-overflow: clip;
 font-size: 1.5em;
 flex: auto;
+display: block;
 
 }
 
@@ -28,6 +29,21 @@ position: absolute;
   z-index: 1;
 left:200px;
 }
+
+.bouton-rejouer-go{
+  background-color: rgb(250, 40, 40);
+ position:absolute;
+
+  padding: 1em;
+  min-width: 5em;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  margin-left: 13em;
+  margin-right: 80em;
+  top: 550px;
+}
+
 
 .fond{
   height: 100%;
@@ -160,9 +176,4 @@ border: 2px;
   width: 1%;
   position: relative;
   right: 3%;
-}
-
-.bouton-rejouer-go{
-
-
 }
