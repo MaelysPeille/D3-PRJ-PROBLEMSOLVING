@@ -24,7 +24,6 @@ text-overflow: clip;
 font-size: 1.5em;
 flex: auto;
 display: block;
-
 }
 
 .rules{
@@ -188,7 +187,12 @@ border: 2px;
   right: 3%;
 }
 
+.video{
+margin-top: 600px;
+margin-left: 300px;
 
+
+}
 
 #logo {
   z-index: 5;
