@@ -28,10 +28,10 @@ display: block;
 }
 
 .rules{
-  height: 100%;
+  height: 84%;
 position: absolute;
   z-index: 1;
-left:200px;
+left:300px;
 }
 
 .bouton-rejouer-go{
@@ -71,6 +71,12 @@ position: absolute;
   width: 100%;
 }
 
+.bouton-rules {
+  z-index: 7;
+  max-height: 90px;
+  margin-left: 720px;
+  margin-top: 720px;
+}
 
 .fondGO{
   height: 100%;
@@ -183,6 +189,7 @@ border: 2px;
 }
 
 
+
 #logo {
   z-index: 5;
   transform: scaleX();
@@ -214,4 +221,16 @@ border: 2px;
   margin-top: 0px;
 }
 
+.bouton-acc {
+  z-index: 7;
+  max-height: 105px;
+  margin-left: 720px;
+  margin-top: 0px;
+}
 
+.bouton-play {
+  z-index: 7;
+  max-height: 88px;
+  margin-left: 725px;
+  margin-top: 0px;
+}
