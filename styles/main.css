@@ -3,12 +3,16 @@ background-color: #2c4f87;
   overflow-x: hidden;
 }
 
+
+
 h1 {
   color: pink;
   height: 50px;
-  position: absolute;
   z-index: 30;
+  align: right;
+  margin-left: 400px;
 }
+
 
 p{
 color: rgb(255,255,255);
@@ -177,3 +181,37 @@ border: 2px;
   position: relative;
   right: 3%;
 }
+
+
+#logo {
+  z-index: 5;
+  transform: scaleX();
+  transform: scaleY();
+  margin-top: 5px;
+  max-height: 80px;
+  ;
+}
+
+#home {
+  z-index: 6;
+  max-height: 80px;
+  margin-left: 180;
+  margin-top: 5px;
+}
+
+#tryagain {
+  z-index: 7;
+  max-height: 80px;
+  margin-left: 0px;
+  margin-top: px;
+
+}
+
+#question {
+  z-index: 7;
+  max-height: 100px;
+  margin-left: 1000px;
+  margin-top: 0px;
+}
+
+
